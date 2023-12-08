@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+}
+
+body {
+background-color: #f5f5f5; /* Choose your desired background color */
+/* Add other styles as needed */
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.heading-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+/*-----------------About Start-----------------*/
+#about .btn {
+    border: 2px solid transparent; /* Border color set to red */
+    width: 40%;
+    padding: 15px 22px;
+    background: #000; /* Updated background color to #1ebba3 */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#about .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ 
+#about .btn:hover{
+    border: 2px solid #1ebba3; /* Border color set to white on hover */
+    cursor: pointer; 
+}
+
+.logo-container {
+margin-right: 10px;
+margin-bottom: 75px; /* Adjust as needed to add spacing between the logo and text */
+}
+
+.logo-img {
+max-height: 3em; /* Adjust the max height as needed */
+vertical-align: middle;
+}
+    
+
+.logo-container1 {
+margin-right: 10px;
+margin-bottom: 75px; /* Adjust as needed to add spacing between the logo and text */
+}
+
+.logo-img1 {
+max-height: 4em; /* Adjust the max height as needed */
+vertical-align: middle;
+}
+
+.contact-icon {
+max-width: 70px; /* Adjust the max width as needed */
+margin-right: 10px;
+margin-bottom: 75px; /* Adjust the margin as needed to add spacing between the icon and the text */
+}
+
+.contact-text {
+text-align: left; /* Align text to the left */
+}
+
+.custom-form-container {
+max-width: 400px; /* Adjust the max-width as needed */
+margin: auto; /* Center the form horizontally */
+}
+
+.social-icons {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px; /* Add margin below the icons */
+}
+
+.social-icon {
+font-size: 35px;
+margin: 0 10px;
+color: #0c0c0c; /* Set the color according to your design */
+transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+color: #007bff; /* Change the color on hover to a different color if needed */
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+}
+.heading-content h5{
+    font-size: 3em;
+}
+
+.heading-content h1{
+    font-size: 3em;
+}
+
+.heading-content p{
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 479px) {
+        .navbar {
+        letter-spacing: 0.1em;
+        padding: 7px 0;
+    }
+    .heading-content h5{
+        font-size: 2em;
+    }
+    
+    .heading-content h1{
+        font-size: 2em;
+    }
+    
+    .heading-content p{
+        font-size: 0.7em;
+    }
+
+#contact .post-heading h3{
+    font-size: 2em;
+}
+}
+}
